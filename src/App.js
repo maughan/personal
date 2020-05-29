@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Background from "./components/background/Background.component";
 import * as Styled from "./components/background/Background.styles";
-import { bg } from "./assets/bg.mp4";
 
 function App() {
 	return (
@@ -16,7 +15,10 @@ function App() {
 					muted
 					onContextMenu="return false;"
 				>
-					<source src={""} type="video/mp4" />
+					<source
+						src="https://personalbackgroundvideo.s3.eu-west-2.amazonaws.com/bg.mp4"
+						type="video/mp4"
+					/>
 				</Styled.BackgroundVideo>
 			</div>
 		</div>
