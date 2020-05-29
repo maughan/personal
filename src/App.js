@@ -14,6 +14,7 @@ function App() {
 					autoPlay
 					muted
 					onContextMenu="return false;"
+					playsInline
 				>
 					<source
 						src="https://personalbackgroundvideo.s3.eu-west-2.amazonaws.com/bg.mp4"
